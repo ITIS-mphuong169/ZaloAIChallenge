@@ -1,0 +1,17 @@
+# Keep the build context small: only lifemate/, predict.sh, train.jsonl and the two model folders are needed.
+.venv
+.venv-vllm
+tools
+result
+result_docker
+Dataset/train+public_test.zip
+Dataset/extracted/train+public_test/public_test
+Dataset/extracted/train+public_test/train/audio
+Dataset/extracted/train+public_test/train/train_environment
+Dataset/extracted/train+public_test/train/zaic_tools
+models/*
+!models/asr-final
+!models/llm
+**/__pycache__
+*.tar
+*.tar.gz

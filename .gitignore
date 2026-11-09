@@ -1,0 +1,21 @@
+# Dữ liệu cuộc thi: chỉ dành cho đội đã đăng ký, không được phát tán
+DataMate/dataset/
+LifeMate/Dataset/
+# Mô hình, công cụ tải về, môi trường Python
+LifeMate/models/
+LifeMate/tools/
+.venv/
+.venv-vllm/
+**/.venv/
+__pycache__/
+*.pyc
+# Kết quả chạy: chứa câu hỏi, lời thoại của dữ liệu cuộc thi
+LifeMate/result/
+DataMate/result/*
+!DataMate/result/submission_v7.jsonl
+result_docker*/
+result_script/
+# Image Docker xuất ra file
+*.tar
+*.tar.gz
+.env

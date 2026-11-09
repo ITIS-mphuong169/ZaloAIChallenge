@@ -1,0 +1,10 @@
+[project]
+name = "lifemate"
+version = "0.1.0"
+description = "ZAC 2026 LifeMate: Vietnamese voice assistant that calls app tools"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+asr = ["faster-whisper>=1.1"]
+train = ["torch", "transformers>=5"]

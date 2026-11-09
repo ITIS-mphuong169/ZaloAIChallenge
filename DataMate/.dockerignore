@@ -1,0 +1,8 @@
+.venv
+dataset
+result
+result_docker
+result_docker_train
+**/__pycache__
+*.tar
+*.tar.gz
